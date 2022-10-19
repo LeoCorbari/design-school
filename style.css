@@ -57,7 +57,7 @@ body {
   background-color: #fff;
 }
 
-.banner-section span {
+.text-left-banner {
   color: #fff;
   font-family: "Krub", sans-serif;
   font-weight: bold;
@@ -67,9 +67,6 @@ body {
 
 .vertical-word {
   height: 380px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
 }
 
 .row-banner {
@@ -163,7 +160,51 @@ body {
   text-transform: uppercase;
 }
 
+.row-indices {
+  color: #fff;
+  height: 220px;
+  background: #0f1010;
+  bottom: 0;
+}
+
+.number-indice {
+  font-size: 51px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 51px;
+}
+
+.purple-plus {
+  color: #b860fa;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 51px;
+}
+
+.row-indices h6 {
+  font-family: "Krub", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 22px;
+}
+
+.row-indices h5 {
+  font-family: "Krub", sans-serif;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 22px;
+}
+
 @media (max-width: 992px) {
+  .row-banner {
+    height: auto;
+  }
+
+  .col-text-banner {
+    height: auto;
+  }
+
   .btn-read-more,
   .btn-start {
     width: 100% !important;
@@ -187,5 +228,9 @@ body {
 
   .edition-year {
     text-align: center;
+  }
+
+  .row-indices {
+    position: inherit !important;
   }
 }
