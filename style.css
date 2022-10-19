@@ -12,6 +12,7 @@ body {
 
 .sm-d-contents {
   display: contents;
+  padding-left: 50px;
 }
 
 .bg-dark {
@@ -26,12 +27,6 @@ body {
   background-image: url(assets/hamburger-menu.svg);
   height: 33px;
   width: 50px;
-}
-
-.nav-mid .nav-link:active,
-.nav-mid .nav-link:focus,
-.nav-mid .nav-link:hover {
-  border-bottom: solid;
 }
 
 .btn-signin {
@@ -68,4 +63,128 @@ body {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.vertical-word {
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.row-banner {
+  height: 80vh;
+}
+
+.circle {
+  height: 375px;
+  width: 375px;
+  background-color: #b860fa;
+  border-radius: 200px;
+}
+
+.banner-section img {
+  filter: grayscale(1);
+}
+
+.edition-year {
+  border: solid 3px #fff;
+  border-right: 0;
+  padding: 5px 0px 5px 5px;
+}
+
+.col-banner-right span {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.year {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  font-size: 29px;
+}
+
+.col-text-banner {
+  height: 30px;
+}
+
+.text-header-banner {
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.text-body-banner {
+  font-family: "Krub", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.btn-start {
+  width: 125px;
+  height: 43px;
+  color: #fff;
+  background-color: #b860fa;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-start:hover {
+  opacity: 0.8;
+}
+
+.btn-read-more {
+  width: 125px;
+  height: 43px;
+  color: #fff;
+  background-color: #101111;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  button {
+    width: 100% !important;
+  }
+
+  .vertical-word {
+    height: auto;
+  }
+
+  .banner-section h4 {
+    transform: none;
+  }
+
+  .banner-section img {
+    position: inherit !important;
+  }
+
+  .circle {
+    position: absolute;
+  }
+
+  .edition-year {
+    text-align: center;
+  }
 }
