@@ -204,7 +204,7 @@ body {
 }
 
 .row-new-challenges {
-  height: 100vh;
+  height: 80vh;
 }
 
 .row-new-challenges h1 {
@@ -228,6 +228,36 @@ body {
   font-size: 49px;
   font-weight: bold;
   color: 252525;
+}
+
+.btn-arrow-down {
+  background-image: url(assets/img-arrow-down.svg);
+  height: 74px;
+  width: 29px;
+  background-color: #101111;
+  background-size: cover;
+  background-position: center;
+  border: 0;
+}
+
+.text-discovery-right {
+  color: #fff;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  right: -70px;
+}
+
+.text-discovery-left {
+  color: #fff;
+  transform: rotate(270deg);
+  text-transform: uppercase;
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  left: -70px;
 }
 
 @media (max-width: 992px) {
