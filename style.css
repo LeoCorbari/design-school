@@ -260,6 +260,19 @@ body {
   left: -70px;
 }
 
+.card-text {
+  text-align: justify !important;
+}
+
+.card {
+  border-radius: 0;
+  border: solid #fff 3px;
+}
+
+.card-body {
+  background-color: #101111;
+}
+
 @media (max-width: 992px) {
   .row-banner {
     height: auto;
