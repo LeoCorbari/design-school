@@ -260,17 +260,96 @@ body {
   left: -70px;
 }
 
+.courses-section {
+  padding-top: 170px;
+}
+
+.row-courses h1 {
+  text-transform: uppercase;
+  font-family: "Krub", sans-serif;
+  font-size: 116px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.row-courses h2 {
+  font-family: "Krub", sans-serif;
+  font-size: 38px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.row-courses .square {
+  margin-top: 5px;
+}
+
+.text-courses-edition span:nth-child(1) {
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-courses-edition span:nth-child(3) {
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+}
+
 .card-text {
   text-align: justify !important;
 }
 
 .card {
+  --bs-card-bg: none;
   border-radius: 0;
-  border: solid #fff 3px;
+  border: #fff solid 3px;
+  width: 290px;
+  height: 375px;
+}
+
+.square-number {
+  background-color: #fff;
+  color: #101111;
+  border: none;
+  height: 45px;
+  width: 45px;
 }
 
 .card-body {
   background-color: #101111;
+}
+
+.square-number p {
+  color: #0f1010;
+  font-family: "Krub", sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.img-arrow-right {
+  background-image: url(assets/img-arrow-right.svg);
+  height: 30px;
+  width: 75px;
+  background-color: #101111;
+  background-size: cover;
+  background-position: center;
+  border: 0;
+}
+
+.row-more-items {
+  height: 10vh;
+}
+
+.more-courses {
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: auto;
 }
 
 @media (max-width: 992px) {
