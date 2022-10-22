@@ -38,7 +38,7 @@
           class="col-lg-2 col-md-12 col-sm-12 d-md-flex justify-content-md-between sm-d-contents"
         >
           <a class="navbar-brand" href="#">
-            <img src="assets/nav-logo.png" alt="" class="d-inline-block" />
+            <img src="assets/nav-logo.png" class="d-inline-block" />
           </a>
           <button
             class="navbar-toggler"
@@ -116,8 +116,8 @@
           <div
             class="col-lg-5 col-md-12 col-sm-12 text-center d-flex justify-content-center align-items-end"
           >
-            <div class="circle d-flex my-auto"></div>
-            <img class="position-absolute" src="assets/banner-img.png" alt="" />
+            <div class="circle-banner d-flex my-auto"></div>
+            <img class="position-absolute" src="assets/banner-img.png" />
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 col-banner-right p-0 d-flex">
             <div class="row">
@@ -259,7 +259,7 @@
     <section id="courses-section" class="courses-section">
       <div class="container-fluid">
         <div class="row row-courses">
-          <div class="row px-5">
+          <div class="row padding-row-course">
             <div class="col-lg-6 col-md-6 col-sm-6 d-flex align-items-baseline">
               <h1>Find</h1>
               <h2 class="ps-3">Your Course.</h2>
@@ -283,14 +283,15 @@
                 >
                   <p class="m-0">.01</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title 02</h5>
-                  <p class="card-text text-center">
+                <div class="card-body text-center">
+                  <h5 class="card-title py-2">Course 01</h5>
+                  <div class="line mx-auto my-2"></div>
+                  <p class="card-text text-center py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quod repellat molestias autem ipsam illum facilis voluptas
                     in.
                   </p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <button href="#" class="btn-card my-2">Read more</button>
                 </div>
               </div>
             </div>
@@ -303,14 +304,15 @@
                 >
                   <p class="m-0">.02</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title 03</h5>
-                  <p class="card-text text-center">
+                <div class="card-body text-center">
+                  <h5 class="card-title py-2">Course 02</h5>
+                  <div class="line mx-auto my-2"></div>
+                  <p class="card-text text-center py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quod repellat molestias autem ipsam illum facilis voluptas
                     in.
                   </p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <button href="#" class="btn-card my-2">Read more</button>
                 </div>
               </div>
             </div>
@@ -323,14 +325,15 @@
                 >
                   <p class="m-0">.03</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title 04</h5>
-                  <p class="card-text text-center">
+                <div class="card-body text-center">
+                  <h5 class="card-title py-2">Course 03</h5>
+                  <div class="line mx-auto my-2"></div>
+                  <p class="card-text text-center py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quod repellat molestias autem ipsam illum facilis voluptas
                     in.
                   </p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <button href="#" class="btn-card my-2">Read more</button>
                 </div>
               </div>
             </div>
@@ -343,24 +346,66 @@
                 >
                   <p class="m-0">.04</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text text-center">
+                <div class="card-body text-center">
+                  <h5 class="card-title py-2">Course 04</h5>
+                  <div class="line mx-auto my-2"></div>
+                  <p class="card-text text-center py-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quod repellat molestias autem ipsam illum facilis voluptas
                     in.
                   </p>
-                  <a href="#" class="btn btn-primary">Read more</a>
+                  <button href="#" class="btn-card my-2">Read more</button>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="row row-more-items d-flex align-items-center justify-content-center"
+            class="row row-more-items d-flex align-items-center justify-content-center p-5"
           >
             <span class="more-courses me-5">More Courses</span>
             <button class="img-arrow-right"></button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+
+    <section id="about-us-section" class="about-us-section">
+      <div class="container-fluid">
+        <div class="row row-about-us">
+          <div class="row justify-content-md-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <img src="" />
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="sm-circle"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h2>About us</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                reiciendis quibusdam perferendis ex rem illo veniam atque
+                placeat maiores? Laudantium, accusamus corporis!
+              </p>
+              <ul>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum dolor</li>
+              </ul>
+              <button>Read more</button>
+            </div>
+            <div
+              class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center"
+            >
+              <div class="circle-about-us align-self-center"></div>
+              <img class="position-absolute" src="assets/img-about-us.png" />
+            </div>
+          </div>
+          <div class="row"></div>
         </div>
       </div>
     </section>
