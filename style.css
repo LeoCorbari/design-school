@@ -147,7 +147,8 @@ body {
 
 .btn-start:hover,
 .btn-card:hover,
-.btn-arrow-down:hover {
+.btn-arrow-down:hover,
+.btn-read-more-about:hover {
   opacity: 0.8;
 }
 
@@ -381,6 +382,54 @@ body {
   width: 395px;
   background-color: #b860fa;
   border-radius: 200px;
+}
+
+.square-items {
+  height: 8px;
+  width: 8px;
+  background-color: #b885fa;
+}
+
+.about-us-section h2 {
+  font-family: "Krub", sans-serif;
+  font-size: 61px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.about-us-section span {
+  font-family: "Krub", sans-serif;
+  font-size: 61px;
+  font-weight: 400;
+  color: #b860fa;
+}
+
+.about-us-section p {
+  color: #fff;
+  font-family: "Krub", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.about-us-section li {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Krub", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-read-more-about {
+  height: 50px;
+  width: 125px;
+  border: none;
+  background-color: #b860fa;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
