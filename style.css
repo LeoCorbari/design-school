@@ -81,7 +81,7 @@ body {
 }
 
 .banner-section img,
-.about-us-section img {
+.img-about-us {
   filter: grayscale(1);
 }
 
@@ -371,10 +371,6 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   width: auto;
-}
-
-.row-about-us {
-  height: 100vh;
 }
 
 .circle-about-us {
